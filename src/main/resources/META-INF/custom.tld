@@ -1,0 +1,16 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.09</jsp-version>
+    <short-name>Tag Lib Demo</short-name>
+    <uri>http://matc.edu/tags</uri>
+    <tag>
+        <name>Hello</name>
+        <tag-class>edu.matc.tagLibDemo.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+    <tag>
+        <name>Greeting</name>
+        <tag-class>edu.matc.tagLibDemo.GreetingTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+</taglib>
